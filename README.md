@@ -16,6 +16,7 @@ This project is based on article: [Create-React-App Continuous Integration Confi
 
 ## clear bash cache to show the update npm version
 `hash -d npm`
+
 `npm -v`
 
 Now follow along the instructions from section “New CRA application” in the [Medium article](https://medium.com/@eferhatg/create-react-app-continuous-integration-config-with-circleci-and-aws-2b0238cde169).
