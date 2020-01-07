@@ -28,6 +28,10 @@ jobs:
 
       # run lint test
       - run: yarn lint    
+     
+      # run cost analysis with size-limit  
+      - run: yarn size
+
       # run tests!
       - run: yarn test
 
