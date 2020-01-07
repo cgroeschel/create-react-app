@@ -1,4 +1,6 @@
 version: 2
+orbs:
+  snyk: snyk/snyk@0.0.8
 jobs:
   build:
     docker:
@@ -34,4 +36,10 @@ jobs:
 
       # run tests!
       - run: yarn test
+
+      # run vulnerability scan
+      - snyk/scan:
+          fail-on-issues: false
+          monitor-on-build: false
+          severity-threshold: high
 
