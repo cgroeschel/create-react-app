@@ -1,4 +1,5 @@
 version: 2.1
+# add the snyk vulnerability service orb
 orbs:
   snyk: snyk/snyk@0.0.8
 jobs:
