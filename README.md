@@ -3,8 +3,11 @@ This project is based on article: [Create-React-App Continuous Integration Confi
 ## Setup requirements
 
 `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+
 `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
+
 `sudo apt update`
+
 `sudo apt install npm yarn`
 
 ## update npm to latest globally
@@ -17,7 +20,4 @@ This project is based on article: [Create-React-App Continuous Integration Confi
 
 Now follow along the instructions from section “New CRA application” in the [Medium article](https://medium.com/@eferhatg/create-react-app-continuous-integration-config-with-circleci-and-aws-2b0238cde169).
 
-**The final working config.yml should look somethine like .circleci/config.yml**
-
-
-
+**The final working config.yml should look like the one in this repo .circleci/config.yml**
